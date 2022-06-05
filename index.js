@@ -6,6 +6,8 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "1. Nama"
 // "2. Nama"
 // ...
+
+//sorter function
 const sorter = (listNama,fn) => {
   const daftar = fn(listNama);
   let output = [];
